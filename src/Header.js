@@ -13,7 +13,7 @@ function Header({
     <header
       className={`h-60 w-full bg-gradient-to-t bg-cover bg-center px-2 py-10 sm:flex sm:flex-col sm:items-center sm:justify-between `}
       style={{
-        backgroundImage: ` url(${isDark ? "/images/bg-desktop-light.jpg" : "/images/bg-desktop-light.jpg"} ) `,
+        backgroundImage: ` url(${isDark ? "/images/bg-desktop-dark.jpg" : "/images/bg-desktop-light.jpg"} ) `,
       }}
     >
       <Nav isDark={isDark} onHandleDarkMode={onHandleDarkMode} />
