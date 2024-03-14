@@ -4,6 +4,8 @@ import Todo from "./Todo";
 import SortOrder from "./SortOrder";
 import Footer from "./Footer";
 
+// SORRY I USED TAILWIND CSS , I WAS JUST TRYING TO LEARN HOW TO USE IT, AND DECIDED TO PRACTICE USING THIS TASK... THANK YOU FOR UNDERSTANDING
+
 function App() {
   const [isDark, setIsDark] = useState(false);
   const [todo, setTodo] = useState("");
