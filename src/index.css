@@ -2,46 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer components {
-  /* tailwind.css */
-
-  @screen sm {
-    .bg-img-sm-dark {
-      background-image: url("/images/bg-mobile-dark.jpg");
-    }
-
-    .bg-img-sm-light {
-      background-image: url("/images/bg-mobile-light.jpg");
-    }
-  }
-
-  @screen md {
-    .bg-img-md-dark {
-      background-image: url("/images/bg-desktop-dark.jpg");
-    }
-
-    .bg-img-md-light {
-      background-image: url("/images/bg-desktop-light.jpg");
-    }
-  }
-}
-
-/* :root {
-  -very-dark-blue: #161722;
-
-  -very-dark-desaturated-blue: #25273c;
-
-  -light-grayish-blue: #cacde8;
-
-  -light-grayish-blue-hover: #e4e5f1;
-
-  -dark-grayish-blue: #777a92;
-
-  -very-dark-grayishblue: #4d5066;
-
-  -very-dark-grayishblue: #393a4c;
-} */
-
 .darkMode {
   background-color: #161722;
 }

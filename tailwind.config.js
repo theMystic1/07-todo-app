@@ -2,6 +2,9 @@
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
+    fontFamily: {
+      josefinSans: ["Josefin Sans", "sans-serif"],
+    },
     extend: {
       colors: {
         lightMode: {

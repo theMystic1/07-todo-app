@@ -74,7 +74,7 @@ function App() {
   }
   return (
     <div
-      className={`${isDark ? "bg-darkMode-main " : "bg-lightMode-main "} h-full z-50 sm:flex sm:flex-col sm:justify-between sm:items-center min-w-[300px] max-w-[600px]:`}
+      className={`${isDark ? "bg-darkMode-main " : "bg-lightMode-main "} max-w-[600px]: font-josefinSans z-50 h-full min-w-[300px] sm:flex sm:flex-col sm:items-center  sm:justify-between`}
     >
       <Header
         isDark={isDark}

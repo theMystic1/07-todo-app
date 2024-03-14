@@ -1,8 +1,8 @@
 function Nav({ isDark, onHandleDarkMode }) {
   return (
-    <nav className="flex justify-between items-center mb-16 sm:w-[600px] ">
+    <nav className="font-josefinSans mb-16 flex items-center justify-between sm:w-[600px] ">
       <p
-        className={`uppercase text-neutral-50 text-3xl tracking-[0.4em] font-semibold `}
+        className={`text-3xl font-semibold uppercase tracking-[0.4em] text-neutral-50 `}
       >
         todo
       </p>
