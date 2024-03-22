@@ -40,7 +40,7 @@ function TodoList({
           value={editedItem}
           onChange={(e) => setEditedItem(e.target.value)}
           autoFocus
-          className={`flex items-center border-0 text-[20px] outline-none ${isDark ? "  bg-lightMode-primary" : "bg-darkMode-primary"}  ${isDark ? "text-lightMode-secondary " : "text-darkMode-secondary "}`}
+          className={`flex items-center border-0 text-[20px] outline-none ${!isDark ? "  bg-lightMode-primary" : "bg-darkMode-primary"}  ${!isDark ? "text-lightMode-secondary " : "text-darkMode-secondary "}`}
         />
       ) : (
         <p

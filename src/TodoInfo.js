@@ -8,9 +8,13 @@ function TodoInfo({ isDark, todoLists, setTodoLists }) {
   }
   return (
     <div
-      className={`${isDark ? "bg-darkMode-primary " : "bg-lightMode-primary"}   ${isDark ? "text-darkMode-secondary " : "text-lightMode-secondary"} absolute sm:bottom-0 bottom-0  flex items-center justify-between  w-full   z-50  h-20  px-8`}
+      className={`${isDark ? "bg-darkMode-primary " : "bg-lightMode-primary"}   ${isDark ? "text-darkMode-secondary " : "text-lightMode-secondary"} absolute bottom-0 z-50  flex h-20 w-full  items-center   justify-between  px-8  sm:bottom-0`}
     >
-      <p className="text-stone-500">{updateTodo.length} items left</p>
+      <p className="text-stone-500">
+        {updateTodo.length > 0
+          ? `${updateTodo.length} items  left`
+          : "No active todos on your List"}
+      </p>
       <button className="text-stone-500" onClick={clearDoneTodo}>
         clear completed
       </button>
