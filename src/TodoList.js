@@ -55,9 +55,11 @@ function TodoList({
             Save
           </button>
         ) : (
-          <button className="mr-8" onClick={handleEdit}>
-            <img src="/images/edit-246-32.png" alt="edit" />
-          </button>
+          !isDone && (
+            <button className="mr-8" onClick={handleEdit}>
+              <img src="/images/edit-246-32.png" alt="edit" />
+            </button>
+          )
         )}
         <span
           className="flex items-center justify-center"
